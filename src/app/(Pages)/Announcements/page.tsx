@@ -22,6 +22,7 @@ const Page = () => {
             <Footer />
 
         </div>
+        
     )
 }
 export default Page
