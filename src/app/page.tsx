@@ -6,7 +6,6 @@ import {
   Monitor,
   Terminal,
   Users,
-  Github,
 } from "lucide-react";
 import Navbar from "../app/components/Navbar";
 import Image from "next/image";
