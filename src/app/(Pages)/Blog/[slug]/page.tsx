@@ -10,7 +10,7 @@ const Blog = async ({ params }: { params: Promise<{ slug: string }> }) => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <section className="mx-auto w-10/12 mt-20 flex flex-col gap-5 flex-1">
+      <section className="mt-[2.5rem] lg:mt-20 mx-auto w-10/12 mt-20 flex flex-col gap-5 flex-1">
         <div className="flex justify-between ">
           <Link href="/Blog">
             <ArrowLeftIcon width={20} />

@@ -16,7 +16,7 @@ const Announcement = async ({
 
   return (
     <div className="min-h-screen bg-white flex flex-col">
-      <section className="mx-auto w-10/12 mt-20 flex flex-col gap-5 bg-white flex-1">
+      <section className="mt-[2.5rem] lg:mt-20 mx-auto w-10/12 flex flex-col gap-5 bg-white flex-1">
         <div className="flex justify-between ">
           <Link href="/Announcements" className="text-black">
             <ArrowLeftIcon width={20} />
