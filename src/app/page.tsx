@@ -109,6 +109,8 @@ export default function Home() {
     { src: "/Platform/brightlands_st_logo.png", alt: "brightlands_st_logo" },
     { src: "/Platform/cei_logo.jpeg",  alt: "cei_logo" },
     { src: "/Platform/maastricht-university-logo.png", alt: "maastricht-university-logo" },
+    { src: "/Platform/alice_logo.jpeg", alt: "alice.tech logo", website:"alice.tech"}, 
+
   ]
 
   return (
@@ -215,7 +217,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-12 text-center font-archivo text-blue-900">
               Our Partners
             </h2>
-            <div className="grid md:grid-cols-4 gap-8 items-center justify-items-center">
+            <div className="grid md:grid-cols-5 gap-4 items-center justify-items-center">
               {logos.map(({src, alt}) => (
                   <div key={src} className="w-full flex justify-center">
                     <Image src={src} alt={alt} width={150} height={75}
